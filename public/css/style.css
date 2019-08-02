@@ -1,0 +1,126 @@
+
+svg {
+    font: 10px sans-serif;
+}
+
+.y.axis path {
+    display: none;
+}
+
+.y.axis line {
+    stroke: #fff;
+    stroke-opacity: .2;
+    shape-rendering: crispEdges;
+}
+
+.y.axis .zero line {
+    stroke: #000;
+    stroke-opacity: 1;
+}
+
+.title {
+    font: 300 78px Helvetica Neue;
+    fill: #666;
+}
+
+.birthyear,
+.age {
+    text-anchor: middle;
+}
+
+.birthyear {
+    fill: #fff;
+}
+
+rect {
+    fill-opacity: .6;
+    fill: #e377c2;
+}
+
+rect:first-child {
+    fill: #1f77b4;
+}
+
+body {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+
+.widget {
+    margin: 0 auto;
+    width: 350px;
+    margin-top: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, .4);
+
+}
+
+.header {
+    background-color: #29384D;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #06060d;
+}
+
+.chart-container {
+    padding: 25px;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, .5));
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, .5));
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.highlight {
+    fill: orange;
+}
+
+.arc text {
+    font: 12px arial;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.title {
+    color: green;
+    font-size: 22px;
+}
+#chart1 {
+width: 50%;
+float: left;
+position: relative;
+}
+#chart1 strong {
+position: absolute;
+left: 36%;
+bottom: -40px;
+}
+#chart2 {
+width: 50%;
+float: left;
+margin-top: 100px;
+position: relative;
+}
+#chart2 strong {
+position: absolute;
+left: 36%;
+bottom: 13px;
+}
+
